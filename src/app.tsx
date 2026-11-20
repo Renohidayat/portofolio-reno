@@ -38,18 +38,18 @@ const Page = () => {
     let title = 'M. Reno Hidayat — Full Stack Engineer & Informatics Graduate'
     let description =
       'Portofolio resmi M. Reno Hidayat, S.Kom. — Full Stack Engineer & Lulusan Informatika Universitas Sebelas April. Mengembangkan aplikasi web, mobile (Flutter), sistem backend, dan AI.'
-    let canonical = 'https://renohidayat.web.app/'
+    let canonical = 'https://renohidayat.my.id/'
 
     if (location.pathname === routes.about) {
       title = 'About — M. Reno Hidayat | Full Stack Engineer'
       description =
         'Tentang M. Reno Hidayat, S.Kom. — Latar belakang pendidikan Informatika di Universitas Sebelas April, pengalaman profesional, riset ilmiah, dan sertifikasi.'
-      canonical = 'https://renohidayat.web.app/about'
+      canonical = 'https://renohidayat.my.id/about'
     } else if (location.pathname === routes.summary) {
       title = 'Summary & Certificates — M. Reno Hidayat | S.Kom.'
       description =
         'Ringkasan profil, keahlian teknis, curriculum vitae (CV), dan sertifikasi resmi M. Reno Hidayat (IBM SkillsBuild, ASEAN Foundation, Google Cloud).'
-      canonical = 'https://renohidayat.web.app/summary'
+      canonical = 'https://renohidayat.my.id/summary'
     }
 
     document.title = title

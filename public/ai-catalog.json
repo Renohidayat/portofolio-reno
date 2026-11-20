@@ -1,7 +1,35 @@
 {
   "$schema": "https://agenticresourcediscovery.org/spec/v1/schema.json",
   "name": "M. Reno Hidayat Portfolio",
-  "description": "Portfolio of M. Reno Hidayat, Full Stack Engineer & Informatics Graduate",
-  "url": "https://renohidayat.web.app",
-  "capabilities": []
+  "description": "Interactive portfolio website of M. Reno Hidayat, S.Kom. — Full Stack Engineer specializing in React, Three.js, Laravel, Flutter, and FastAPI. Features 3D interactive hero with WebGL, project showcases with live demos, certificate gallery, scientific publication, bilingual (Indonesian/English), and responsive design. Built with React 18, TypeScript, Vite, Tailwind CSS, and deployed on Firebase Hosting.",
+  "url": "https://renohidayat.my.id",
+  "author": {
+    "name": "M. Reno Hidayat",
+    "url": "https://github.com/Renohidayat"
+  },
+  "capabilities": [
+    "portfolio-showcase",
+    "interactive-3d-web-experience",
+    "project-gallery-with-live-demos",
+    "developer-profile",
+    "certificate-gallery",
+    "scientific-publications",
+    "bilingual-content",
+    "responsive-design",
+    "cv-download"
+  ],
+  "topics": [
+    "web development",
+    "mobile development",
+    "flutter",
+    "laravel",
+    "react",
+    "three.js",
+    "fastapi",
+    "machine learning",
+    "firebase",
+    "portfolio website",
+    "full stack engineer",
+    "indonesia developer"
+  ]
 }

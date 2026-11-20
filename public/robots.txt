@@ -1,13 +1,71 @@
+# ===========================================
+# renohidayat.my.id — Robots.txt
+# Last updated: 2026-11-20
+# ===========================================
+
+# Default: Allow all crawlers
 User-agent: *
 Allow: /
 
+# --- Google ---
 User-agent: Googlebot
 Allow: /
 
 User-agent: Googlebot-Image
 Allow: /
 
+User-agent: Google-Extended
+Allow: /
+
+# --- Bing / Microsoft ---
 User-agent: Bingbot
 Allow: /
 
-Sitemap: https://renohidayat.web.app/sitemap.xml
+# --- OpenAI (ChatGPT) ---
+User-agent: GPTBot
+Allow: /
+
+User-agent: ChatGPT-User
+Allow: /
+
+# --- Anthropic (Claude) ---
+User-agent: ClaudeBot
+Allow: /
+
+User-agent: anthropic-ai
+Allow: /
+
+# --- Perplexity ---
+User-agent: PerplexityBot
+Allow: /
+
+# --- Apple ---
+User-agent: Applebot
+Allow: /
+
+User-agent: Applebot-Extended
+Allow: /
+
+# --- Cohere ---
+User-agent: cohere-ai
+Allow: /
+
+# --- Meta ---
+User-agent: Meta-ExternalAgent
+Allow: /
+
+User-agent: FacebookBot
+Allow: /
+
+# --- Other AI Crawlers ---
+User-agent: Bytespider
+Allow: /
+
+User-agent: CCBot
+Allow: /
+
+User-agent: YouBot
+Allow: /
+
+# --- Sitemap & LLM Files ---
+Sitemap: https://renohidayat.my.id/sitemap.xml

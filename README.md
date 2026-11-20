@@ -1,6 +1,6 @@
 # Portofolio M. Reno Hidayat, S.Kom.
 
-> **Live Website**: [renohidayat.web.app](https://renohidayat.web.app)
+> **Live Website**: [renohidayat.my.id](https://renohidayat.my.id) (sebelumnya `renohidayat.web.app`)
 
 Portofolio resmi **M. Reno Hidayat, S.Kom.** — Full Stack Software Engineer & Lulusan Informatika Universitas Sebelas April. Menampilkan pengalaman profesional, proyek unggulan (Web, Mobile Flutter, Backend, AI/Machine Learning), riset ilmiah (ResearchGate), serta sertifikasi internasional (IBM SkillsBuild, ASEAN Foundation, Google Cloud, Kominfo).
 
