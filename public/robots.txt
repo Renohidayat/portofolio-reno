@@ -69,4 +69,3 @@ Allow: /
 
 # --- Sitemap & LLM Files ---
 Sitemap: https://renohidayat.my.id/sitemap.xml
-Sitemap: https://renohidayat.my.id/sitemap_index.xml
