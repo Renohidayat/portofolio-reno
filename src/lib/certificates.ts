@@ -5,12 +5,16 @@ import AseanMicrosoftGuideImg from 'assets/images/asean-microsofts-guide-secure-
 import AseanMisinformationImg from 'assets/images/asean-misinformation-disinformation.jpeg'
 import AseanResponsibleCitizensImg from 'assets/images/asean-responsible-digital-citizens.jpeg'
 import AseanTechnicalPreventionImg from 'assets/images/asean-technical-prevention-incident-response.jpeg'
+import DicodingKiroImg from 'assets/images/dicoding-spec-driven-development-dengan-kiro.jpg'
+import DicodingAwsCloudImg from 'assets/images/dicoding-belajar-dasar-cloud-dan-gen-ai-di-aws.jpg'
+import DicodingPythonImg from 'assets/images/dicoding-memulai-pemrograman-dengan-python.jpg'
+import DicodingMlImg from 'assets/images/dicoding-belajar-machine-learning-untuk-pemula.jpg'
 import IbmSkillsBuildImg from 'assets/images/ibm-skillsbuild-web-dev.png'
 import VibeCodingCert from 'assets/images/vibe-coding-cert.png'
 import GoogleSkillsImg from 'assets/images/google-skills-badge.png'
 import LiterasiDigitalCert from 'assets/images/literasi-digital-cert.jpg'
 
-export type CertificateGroupId = 'ibm' | 'asean' | 'vibe-coding' | 'google-cloud' | 'literasi-digital'
+export type CertificateGroupId = 'dicoding' | 'ibm' | 'asean' | 'vibe-coding' | 'google-cloud' | 'literasi-digital'
 
 export interface CertificateItem {
   id: string
@@ -52,7 +56,8 @@ export const CERTIFICATE_GROUPS: {
   label: { id: string; en: string }
   count: number
 }[] = [
-  { id: 'all', label: { id: 'Semua Sertifikat', en: 'All Certificates' }, count: 11 },
+  { id: 'all', label: { id: 'Semua Sertifikat', en: 'All Certificates' }, count: 15 },
+  { id: 'dicoding', label: { id: 'Dicoding Academy', en: 'Dicoding Academy' }, count: 4 },
   { id: 'ibm', label: { id: 'IBM SkillsBuild', en: 'IBM SkillsBuild' }, count: 1 },
   { id: 'asean', label: { id: 'ASEAN Foundation', en: 'ASEAN Foundation' }, count: 7 },
   { id: 'vibe-coding', label: { id: 'Google Developers', en: 'Google Developers' }, count: 1 },
@@ -61,7 +66,145 @@ export const CERTIFICATE_GROUPS: {
 ]
 
 export const ALL_CERTIFICATES: CertificateItem[] = [
-  // 1. IBM SkillsBuild
+  // 1. Dicoding Indonesia - AWS AI Academy 2026 (4 Certificates · 173 Hours)
+  {
+    id: 'dicoding-sdd-kiro',
+    groupId: 'dicoding',
+    groupName: {
+      id: 'Dicoding Academy',
+      en: 'Dicoding Academy'
+    },
+    institution: 'Dicoding Indonesia',
+    title: 'Spec-Driven Development dengan Kiro',
+    program: 'AWS AI Academy 2026 (10 Jam · Level Dasar)',
+    partner: 'AWS (Amazon Web Services)',
+    date: {
+      id: '25 November 2026',
+      en: 'November 25, 2026'
+    },
+    description: {
+      id: 'Sertifikat kompetensi kelulusan Dicoding Academy (AWS AI Academy 2026) mengenai paradigma Spec-Driven Development (SDD) menggunakan Kiro—mencakup perancangan dokumen spesifikasi (Requirements, Design, Task Implementation), Prompt Engineering untuk SDD, pembangunan aplikasi web dengan alur kerja AI-assisted terstruktur, serta review kode otomatis dan penjagaan kualitas source code (10 jam belajar · Berlaku hingga 25 Nov 2029).',
+      en: 'Dicoding Academy competency certificate (AWS AI Academy 2026) covering Spec-Driven Development (SDD) with Kiro—structuring Requirements, Design, and Task specifications, Prompt Engineering for SDD, iterative AI-assisted web development, automated code review, and code quality maintenance (10 study hours · Valid until Nov 25, 2029).'
+    },
+    image: DicodingKiroImg,
+    pdfUrl: '/dicoding-certs/spec-driven-development-dengan-kiro.pdf',
+    verifyUrl: 'https://www.dicoding.com/certificates/JLX1K9ORGP72',
+    verifyLabel: {
+      id: 'Verifikasi di Dicoding',
+      en: 'Verify on Dicoding'
+    },
+    credentialId: 'JLX1K9ORGP72',
+    tags: ['Spec-Driven Development', 'Kiro AI', 'AWS', 'AI-Assisted Coding', 'Dicoding'],
+    badge: {
+      id: 'AWS · 10 Jam',
+      en: 'AWS · 10 Hours'
+    },
+    themeColor: '#22D3EE'
+  },
+  {
+    id: 'dicoding-cloud-genai-aws',
+    groupId: 'dicoding',
+    groupName: {
+      id: 'Dicoding Academy',
+      en: 'Dicoding Academy'
+    },
+    institution: 'Dicoding Indonesia',
+    title: 'Belajar Dasar Cloud dan Gen AI di AWS',
+    program: 'AWS AI Academy 2026 (13 Jam · Level Dasar)',
+    partner: 'AWS (Amazon Web Services)',
+    date: {
+      id: '25 November 2026',
+      en: 'November 25, 2026'
+    },
+    description: {
+      id: 'Sertifikat kompetensi kelulusan Dicoding & AWS yang memvalidasi penguasaan standar komputasi awan AWS: EC2, Elastic Load Balancing, SNS/SQS, CloudFront, Availability Zones, jaringan VPC/VPN, penyimpanan (EBS, S3, EFS, DynamoDB), keamanan IAM & Shared Responsibility Model, CloudWatch/CloudTrail, AWS Well-Architected Framework, serta dasar AI, Machine Learning & Generative AI di AWS (13 jam belajar · Berlaku hingga 25 Nov 2029).',
+      en: 'Official Dicoding & AWS competency certificate validating AWS Cloud fundamentals: EC2, Elastic Load Balancing, SNS/SQS, CloudFront, Availability Zones, VPC/VPN networking, storage & databases (EBS, S3, EFS, DynamoDB), IAM security & Shared Responsibility Model, CloudWatch/CloudTrail, AWS Well-Architected Framework, and AI/ML & Generative AI on AWS (13 study hours · Valid until Nov 25, 2029).'
+    },
+    image: DicodingAwsCloudImg,
+    pdfUrl: '/dicoding-certs/belajar-dasar-cloud-dan-gen-ai-di-aws.pdf',
+    verifyUrl: 'https://www.dicoding.com/certificates/72ZDM54OJZYW',
+    verifyLabel: {
+      id: 'Verifikasi di Dicoding',
+      en: 'Verify on Dicoding'
+    },
+    credentialId: '72ZDM54OJZYW',
+    tags: ['AWS Cloud', 'Generative AI', 'Cloud Practitioner', 'IAM & VPC', 'Dicoding'],
+    badge: {
+      id: 'AWS · 13 Jam',
+      en: 'AWS · 13 Hours'
+    },
+    themeColor: '#22D3EE'
+  },
+  {
+    id: 'dicoding-python',
+    groupId: 'dicoding',
+    groupName: {
+      id: 'Dicoding Academy',
+      en: 'Dicoding Academy'
+    },
+    institution: 'Dicoding Indonesia',
+    title: 'Memulai Pemrograman dengan Python',
+    program: 'AWS AI Academy 2026 (60 Jam · Level Dasar & Pemula)',
+    partner: 'Google Developers Authorized Training Partner',
+    date: {
+      id: '25 November 2026',
+      en: 'November 25, 2026'
+    },
+    description: {
+      id: 'Sertifikat kompetensi pemrograman Python berstandar industri (60 jam belajar): pengolahan data, control flow, array & matriks, fungsi dan prosedur (subprogram), Object-Oriented Programming (OOP), panduan gaya penulisan PEP8, unit testing otomatis, serta pemanfaatan library populer Python untuk pemrosesan teks, web scraping, machine learning, dan web development di VS Code, Jupyter Notebook & Google Colab (Berlaku hingga 25 Nov 2029).',
+      en: 'Industry-standard Python programming competency certificate (60 study hours): data manipulation, control flow, arrays & matrices, subprograms, Object-Oriented Programming (OOP), PEP8 style guide, automated unit testing, and popular Python libraries for text processing, web scraping, machine learning, and web development using VS Code, Jupyter Notebook & Google Colab (Valid until Nov 25, 2029).'
+    },
+    image: DicodingPythonImg,
+    pdfUrl: '/dicoding-certs/memulai-pemrograman-dengan-python.pdf',
+    verifyUrl: 'https://www.dicoding.com/certificates/KEXLM75GYZG2',
+    verifyLabel: {
+      id: 'Verifikasi di Dicoding',
+      en: 'Verify on Dicoding'
+    },
+    credentialId: 'KEXLM75GYZG2',
+    tags: ['Python', 'OOP', 'Unit Testing', 'PEP8', 'Google Developers', 'Dicoding'],
+    badge: {
+      id: '60 Jam · Python',
+      en: '60 Hours · Python'
+    },
+    themeColor: '#22D3EE'
+  },
+  {
+    id: 'dicoding-machine-learning',
+    groupId: 'dicoding',
+    groupName: {
+      id: 'Dicoding Academy',
+      en: 'Dicoding Academy'
+    },
+    institution: 'Dicoding Indonesia',
+    title: 'Belajar Machine Learning untuk Pemula',
+    program: 'AWS AI Academy 2026 (90 Jam · Proyek Akhir Data Tabular)',
+    partner: 'Google Developers Authorized Training Partner',
+    date: {
+      id: '25 November 2026',
+      en: 'November 25, 2026'
+    },
+    description: {
+      id: 'Sertifikat kompetensi intensif Machine Learning (90 jam belajar + evaluasi submission proyek akhir): mencakup end-to-end ML workflow, Supervised Learning klasifikasi (KNN, Decision Tree) dan regresi linear, Unsupervised Learning clustering (K-Means), teknik feature engineering, penanganan overfitting & underfitting, serta hyperparameter tuning pada dataset tabular kasus nyata (Berlaku hingga 25 Nov 2029).',
+      en: 'Intensive Machine Learning competency certificate (90 study hours + final project submission): covering end-to-end ML workflow, Supervised Learning (KNN, Decision Tree classification, Linear Regression), Unsupervised Learning (K-Means clustering), feature engineering, overfitting & underfitting mitigation, and hyperparameter tuning on real-world tabular datasets (Valid until Nov 25, 2029).'
+    },
+    image: DicodingMlImg,
+    pdfUrl: '/dicoding-certs/belajar-machine-learning-untuk-pemula.pdf',
+    verifyUrl: 'https://www.dicoding.com/certificates/6RPNORMD4X2M',
+    verifyLabel: {
+      id: 'Verifikasi di Dicoding',
+      en: 'Verify on Dicoding'
+    },
+    credentialId: '6RPNORMD4X2M',
+    tags: ['Machine Learning', 'KNN & Decision Tree', 'K-Means', 'Feature Engineering', 'Dicoding'],
+    badge: {
+      id: '90 Jam · Proyek Akhir',
+      en: '90 Hours · Final Project'
+    },
+    themeColor: '#22D3EE'
+  },
+
+  // 2. IBM SkillsBuild
   {
     id: 'ibm-skillsbuild-web-dev',
     groupId: 'ibm',

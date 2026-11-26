@@ -7,6 +7,7 @@ import ExperienceRow, { ExperienceRowProps } from 'module/about/experience-row'
 import LetterSpacingTitle from 'module/about/letter-spacing-title'
 import { AiOutlineArrowDown } from 'react-icons/ai'
 import {
+  SiAmazonaws,
   SiChartdotjs,
   SiDart,
   SiExpress,
@@ -44,6 +45,7 @@ import LiterasiDigitalHoverPreview from 'components/common/literasi-digital-hove
 import ResearchGateHoverPreview from 'components/common/researchgate-hover-preview'
 import CgmiHoverPreview from 'components/common/cgmi-hover-preview'
 import AseanHoverPreview from 'components/common/asean-hover-preview'
+import DicodingHoverPreview from 'components/common/dicoding-hover-preview'
 import IbmHoverPreview from 'components/common/ibm-hover-preview'
 import CertificateModal from 'components/common/certificate-modal'
 import LiterasiDigitalCert from 'assets/images/literasi-digital-cert.jpg'
@@ -313,6 +315,32 @@ export default function SectionExperiences() {
       fullViewTitle: 'Publikasi Riset Ilmiah (ResearchGate · DOI: 10.13140/RG.2.2.28607.68009)',
       link: 'https://www.researchgate.net/publication/393644925_Pengaruh_Kesadaran_dan_Persepsi_terhadap_Keamanan_Informasi_terhadap_Pengalaman_Menghadapi_Ancaman_Siber_Pendekatan_PLS-SEM',
       techStack: [{ name: 'ResearchGate', icon: SiResearchgate }]
+    },
+    {
+      text1: 'Dicoding Indonesia',
+      text2: 'Nov 2026',
+      text3:
+        lang === 'id'
+          ? 'AWS AI Academy 2026 · Cloud, Gen AI, Python & Machine Learning (4 Sertifikat · 173 Jam)'
+          : 'AWS AI Academy 2026 · Cloud, Gen AI, Python & Machine Learning (4 Certificates · 173 Hours)',
+      description:
+        lang === 'id'
+          ? 'Koleksi 4 sertifikasi kompetensi kelulusan resmi dari Dicoding Indonesia (Program AWS AI Academy 2026, total 173 jam pembelajaran): Spec-Driven Development dengan Kiro, Belajar Dasar Cloud dan Gen AI di AWS, Memulai Pemrograman dengan Python, serta Belajar Machine Learning untuk Pemula beserta proyek akhir data tabular. Klik untuk membuka seluruh sertifikat.'
+          : 'Collection of 4 official competency certificates from Dicoding Indonesia (AWS AI Academy 2026 program, 173 total learning hours): Spec-Driven Development with Kiro, AWS Cloud & Generative AI Basics, Python Programming, and Machine Learning for Beginners with final tabular modeling project. Click to view all certificates.',
+      color: '#2D3E50',
+      hoverElement: <DicodingHoverPreview />,
+      certificateBadge: lang === 'id' ? '4 Sertifikat' : '4 Certificates',
+      onRowClick: () => handleOpenCertModal('dicoding-sdd-kiro'),
+      fullViewTitle: 'Koleksi Sertifikat Resmi Dicoding Indonesia · AWS AI Academy 2026 (4 Sertifikat)',
+      link: 'https://www.dicoding.com/certificates/JLX1K9ORGP72',
+      techStack: [
+        { name: 'Dicoding Academy' },
+        { name: 'AWS & Gen AI', icon: SiAmazonaws },
+        { name: 'Python', icon: SiPython },
+        { name: 'Machine Learning', icon: SiScikitlearn },
+        { name: 'Kiro SDD' },
+        { name: 'Google Partner', icon: SiGoogle }
+      ]
     },
     {
       text1: 'IBM SkillsBuild',

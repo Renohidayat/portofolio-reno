@@ -176,8 +176,8 @@ export default function CertificateModal({
                 </div>
                 <p className="m-0 text-xs text-white/50 font-poppins truncate">
                   {lang === 'id'
-                    ? 'Koleksi Sertifikasi Resmi: Web Dev, Cybersecurity, AI Readiness, Cloud & Literasi'
-                    : 'Official Certifications: Web Dev, Cybersecurity, AI Readiness, Cloud & Literacy'}
+                    ? 'Koleksi Sertifikasi Resmi: Cloud & Gen AI, ML, Python, Web Dev & Cybersecurity'
+                    : 'Official Certifications: Cloud & Gen AI, ML, Python, Web Dev & Cybersecurity'}
                 </p>
               </div>
             </div>
@@ -292,6 +292,14 @@ export default function CertificateModal({
                   <span className="text-xs font-poppins text-white/40">
                     {activeCert.date[lang]}
                   </span>
+                  {activeCert.credentialId && (
+                    <>
+                      <span className="text-white/30">•</span>
+                      <span className="font-mono text-[11px] text-white/60">
+                        ID: {activeCert.credentialId}
+                      </span>
+                    </>
+                  )}
                 </div>
 
                 <h4 className="m-0 font-poppins text-sm sm:text-base md:text-lg font-semibold text-white tracking-tight">

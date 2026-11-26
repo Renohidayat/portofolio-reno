@@ -10,7 +10,7 @@ URL: https://renohidayat.my.id/
 
 ## About M. Reno Hidayat
 
-M. Reno Hidayat is a Full Stack Engineer based in Indonesia, specializing in web development, mobile development (Flutter), backend systems (Laravel, Node.js, FastAPI), and machine learning. He graduated with a Bachelor of Computer Science (S.Kom.) from Universitas Sebelas April (UNSAP) in Informatics Engineering. He has 4+ years of learning experience, 7+ built projects, and 5+ professional certifications.
+M. Reno Hidayat is a Full Stack Engineer based in Indonesia, specializing in web development, mobile development (Flutter), backend systems (Laravel, Node.js, FastAPI), and machine learning. He graduated with a Bachelor of Computer Science (S.Kom.) from Universitas Sebelas April (UNSAP) in Informatics Engineering. He has 4+ years of learning experience, 7+ built projects, and 15+ official certifications.
 
 ## Pages
 
@@ -82,6 +82,7 @@ Link: https://dapoer-saripohaci.web.app/
 
 ## Certifications
 
+- Dicoding Indonesia (AWS AI Academy 2026 — 4 Certificates, Nov 2026): Spec-Driven Development dengan Kiro (JLX1K9ORGP72), Belajar Dasar Cloud dan Gen AI di AWS (72ZDM54OJZYW), Memulai Pemrograman dengan Python (KEXLM75GYZG2), Belajar Machine Learning untuk Pemula (6RPNORMD4X2M)
 - IBM SkillsBuild: Web Development Fundamentals (Nov 2026) — Verified on Credly
 - ASEAN Foundation: 7 certificates in AI Career Readiness, Cybersecurity, Digital Literacy (Oct 2026) — Partners: Google.org, Microsoft, LinkedIn, Infoxchange
 - Google Developer Groups: Vibe Coding Study Jam (#JuaraVibeCoding) (May 2026) — Credential: JVC2605-ABH7-5MXU

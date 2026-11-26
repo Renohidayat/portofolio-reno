@@ -6,6 +6,7 @@ import Experience from '../experience'
 import TimelineExperience from '../timeline-experience'
 import CertificateModal from 'components/common/certificate-modal'
 import {
+  SiAmazonaws,
   SiChartdotjs,
   SiDart,
   SiExpress,
@@ -241,8 +242,32 @@ const Experiences = () => {
           <TitleSummaries text={t('summary_selected_certificate')} observeId="selected-certificate" />
           <ul className="list-disc marker:text-white">
             <Experience
+              title="Dicoding Indonesia · AWS AI Academy 2026"
+              badge={lang === 'id' ? '4 Sertifikat Resmi' : '4 Verified Credentials'}
+              sentences={[
+                lang === 'id'
+                  ? 'Spec-Driven Development dengan Kiro · Dasar Cloud & Gen AI AWS · Python (60 Jam) · Machine Learning (90 Jam)'
+                  : 'Spec-Driven Development with Kiro · AWS Cloud & Gen AI · Python (60h) · Machine Learning (90h)',
+                lang === 'id'
+                  ? 'Dicoding Academy · AWS & Google Developers Partner · 25 Nov 2026 (Total 173 Jam)'
+                  : 'Dicoding Academy · AWS & Google Developers Partner · Nov 25, 2026 (173 Hours Total)',
+                lang === 'id'
+                  ? '👉 Klik di sini untuk membuka & melihat seluruh 4 sertifikat'
+                  : '👉 Click here to view & open all 4 full certificates'
+              ]}
+              onClick={() => handleOpenCertModal('dicoding-sdd-kiro')}
+              techStack={[
+                { name: 'Dicoding Academy' },
+                { name: 'AWS & Gen AI', icon: SiAmazonaws },
+                { name: 'Python', icon: SiPython },
+                { name: 'Machine Learning', icon: SiScikitlearn },
+                { name: 'Kiro SDD' }
+              ]}
+            />
+            <Experience
               title="IBM SkillsBuild"
               badge={lang === 'id' ? 'Sertifikat Terverifikasi' : 'Verified Certificate'}
+              className="mt-5"
               sentences={[
                 lang === 'id'
                   ? 'Web Development Fundamentals · Kredensial Resmi Credly'

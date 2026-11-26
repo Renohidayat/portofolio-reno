@@ -48,7 +48,7 @@ const Page = () => {
     } else if (location.pathname === routes.summary) {
       title = 'Summary & Certificates — M. Reno Hidayat | S.Kom.'
       description =
-        'Ringkasan profil, keahlian teknis, curriculum vitae (CV), dan sertifikasi resmi M. Reno Hidayat (IBM SkillsBuild, ASEAN Foundation, Google Cloud).'
+        'Ringkasan profil, keahlian teknis, curriculum vitae (CV), dan sertifikasi resmi M. Reno Hidayat (Dicoding AWS AI Academy, IBM SkillsBuild, ASEAN Foundation, Google Cloud).'
       canonical = 'https://renohidayat.my.id/summary'
     }
 

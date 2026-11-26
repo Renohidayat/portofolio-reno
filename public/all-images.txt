@@ -12,7 +12,11 @@ crealoka-summary.png
 dapoer-pohaci-1.jpg
 dapoer-pohaci-2.jpg
 dapoer-pohaci-mockup.jpg
+dicoding-belajar-dasar-cloud-dan-gen-ai-di-aws.jpg
+dicoding-belajar-machine-learning-untuk-pemula.jpg
 dicoding-elit-summary.png
+dicoding-memulai-pemrograman-dengan-python.jpg
+dicoding-spec-driven-development-dengan-kiro.jpg
 f.a.svg
 feb-mockup-1.jpg
 feb-mockup-2.png

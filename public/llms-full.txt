@@ -21,7 +21,7 @@ M. Reno Hidayat is a Full Stack Engineer who designs, builds, and ships software
 - 4+ years of continuous learning in software engineering
 - 7+ production projects designed, built, and shipped
 - 15+ technologies and frameworks explored
-- 5+ professional certifications earned from IBM, Google, ASEAN Foundation, and government institutions
+- 15+ official certifications earned from Dicoding (AWS AI Academy), IBM, Google, ASEAN Foundation, and government institutions
 
 ---
 
@@ -187,14 +187,21 @@ M. Reno Hidayat is a Full Stack Engineer who designs, builds, and ships software
 
 ## Certifications — Full Details
 
-### 1. IBM SkillsBuild: Web Development Fundamentals
+### 1. Dicoding Indonesia: AWS AI Academy 2026 (4 Certificates · 173 Hours)
+Completed on November 25, 2026 (valid until November 25, 2029):
+a) **Spec-Driven Development dengan Kiro** (10 hours, Partner: AWS) — Verification: https://www.dicoding.com/certificates/JLX1K9ORGP72
+b) **Belajar Dasar Cloud dan Gen AI di AWS** (13 hours, Partner: AWS) — Verification: https://www.dicoding.com/certificates/72ZDM54OJZYW
+c) **Memulai Pemrograman dengan Python** (60 hours, Partner: Google Developers) — Verification: https://www.dicoding.com/certificates/KEXLM75GYZG2
+d) **Belajar Machine Learning untuk Pemula** (90 hours + Final Tabular ML Project, Partner: Google Developers) — Verification: https://www.dicoding.com/certificates/6RPNORMD4X2M
+
+### 2. IBM SkillsBuild: Web Development Fundamentals
 - **Issued:** November 2, 2026
 - **Issuer:** IBM SkillsBuild for Job Seekers & Students
 - **Verification:** Credly — https://www.credly.com/badges/fdf11895-7660-4cbb-94b0-d2f460ef2295
 - **Credential ID:** fdf11895-7660-4cbb-94b0-d2f460ef2295
 - **Covers:** Modern web architecture, client-server foundations, HTTP protocols, semantic HTML5/CSS3, JavaScript engineering, responsive web design
 
-### 2. ASEAN Foundation — 7 Certificates
+### 3. ASEAN Foundation — 7 Certificates
 Issued through ASEAN Foundation portal (ada.aseanfoundation.org) in partnership with Google.org, Microsoft, LinkedIn, and Infoxchange:
 
 a) **AI Career Readiness Training** (Oct 31, 2026) — ASEAN Ahead program with LinkedIn
@@ -205,20 +212,20 @@ e) **Misinformation & Disinformation** (Oct 20, 2026) — Digital Literacy with 
 f) **Responsible Digital Citizens** (Oct 20, 2026) — Digital Literacy with Google.org
 g) **Technical Prevention & Incident Response** (Oct 31, 2026) — Cybersecurity Skilling with Infoxchange
 
-### 3. Google Developer Groups: Vibe Coding Study Jam
+### 4. Google Developer Groups: Vibe Coding Study Jam
 - **Issued:** May 2026
 - **Program:** #JuaraVibeCoding ("Code Less, Build More")
 - **Issuer:** Google Developer Groups Indonesia
 - **Credential ID:** JVC2605-ABH7-5MXU
 - **Verification:** https://goo.gle/jvc-cert-verifier
 
-### 4. Google Cloud Skills Boost: Gold League
+### 5. Google Cloud Skills Boost: Gold League
 - **Issued:** June 2025
 - **Achievement:** Gold League — 10,195 points
 - **Credentials:** 8 verified badges across Cloud Computing Foundations (Infrastructure, Data & AI, Networking, Cloud Basics), Cloud Load Balancing, and Secure Networks
 - **Profile:** https://www.skills.google/public_profiles/dbededbb-2448-42df-aa6f-b04942cc5580
 
-### 5. Kemenkominfo RI: Seminar Literasi Digital Mahasiswa
+### 6. Kemenkominfo RI: Seminar Literasi Digital Mahasiswa
 - **Issued:** February 2024
 - **Issuer:** Directorate of Informatics Empowerment, Ministry of ICT
 - **Theme:** "Meningkatkan Peran Mahasiswa Sebagai Agen Perubahan di Era Digital"
@@ -256,7 +263,7 @@ A: Real-time distributed exam systems, official university faculty portals, AI-p
 A: Visit https://renohidayat.my.id/ for his interactive portfolio, or check individual project links listed above.
 
 **Q: What certifications does he hold?**
-A: IBM SkillsBuild (Web Development), 7 ASEAN Foundation certificates (Cybersecurity, AI, Digital Literacy), Google Cloud Gold League (8 badges), Google Developer Groups Vibe Coding, and Kemenkominfo Digital Literacy.
+A: 4 Dicoding AWS AI Academy certificates (Kiro SDD, AWS Cloud & Gen AI, Python, Machine Learning), IBM SkillsBuild (Web Development), 7 ASEAN Foundation certificates (Cybersecurity, AI, Digital Literacy), Google Cloud Gold League (8 badges), Google Developer Groups Vibe Coding, and Kemenkominfo Digital Literacy.
 
 ---
 
