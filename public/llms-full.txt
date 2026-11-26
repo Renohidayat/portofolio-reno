@@ -88,21 +88,17 @@ M. Reno Hidayat is a Full Stack Engineer who designs, builds, and ships software
 **Role:** Full Stack Web Developer
 **Client:** Faculty of Economics & Business, Universitas Sebelas April
 **URL:** https://feb.unsap.ac.id/
-**Tech Stack:** Laravel 11, PHP 8.2, MySQL, Tailwind CSS, Vite, SB Admin 2
+**Tech Stack:** Laravel 12, PHP 8.2, MySQL, Tailwind CSS, Vite, Google Socialite OAuth, PHPWord, Maatwebsite Excel, Spatie CSP
 
-**Problem:** The faculty lacked a modern digital presence and content management system for academic information dissemination.
-
-**Solution:** A full-featured web portal and CMS built with Laravel 11, featuring:
-- **Public Frontend:** Responsive Tailwind CSS interface for news, events, and academic information
-- **Admin Dashboard:** SB Admin 2 panel for content management
-- **Academic Modules:** Study program profiles, faculty directory with tri-dharma records, event calendar, curriculum management
+**Scale & Impact:**
+- Serves **3 study programs** (Management, Accounting, Master of Management), **1,500+ students**, **45+ lecturers**, and **5,000+ alumni**
+- Engineered with **30 Eloquent models**, **59 database migrations**, **64 controllers** (**23 Admin CMS modules**), and **201 Blade views** (150+ HTTP routes)
+- Served as the faculty's official governance transparency & document repository platform (`/profil/akreditasi`, `/dokumen-folder`, journal portal, and digital student letter service), contributing supporting evidence during S1 Management's **LAMEMBA "Unggul"** accreditation achievement (Nov 2026)
 
 **Features:**
-- Featured news and announcement publication system
-- Faculty agenda and event management
-- Study program curriculum display
-- Lecturer/staff directory with academic records
-- Responsive design for all devices
+- **23 Admin CMS Modules & Multi-Role RBAC:** Separate Admin & SuperAdmin authorization managing news, events, study programs, lecturer directory, accreditations, scholarships, facilities, academic calendars, and hierarchical document folders
+- **Digital Student Letter System:** Online student submission portal with Google OAuth (`Socialite`) and automated DOCX generation via `PHPWord`
+- **Data Management & Security:** Bulk student Excel imports (`Maatwebsite/Excel`), image optimization (`Intervention Image`), Google Analytics, Content Security Policy (`Spatie CSP`), reCAPTCHA, and HTML sanitization (`Mews Purifier`)
 
 ---
 

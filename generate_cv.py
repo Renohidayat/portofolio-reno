@@ -115,7 +115,7 @@ def build_pdf(filename):
         '<a href="mailto:hidayatreno085@gmail.com"><font color="#0D529C">hidayatreno085@gmail.com</font></a><br/>'
         '<a href="https://linkedin.com/in/renohidayat"><font color="#0D529C">linkedin.com/in/renohidayat</font></a> &nbsp;|&nbsp; '
         '<a href="https://github.com/Renohidayat"><font color="#0D529C">github.com/Renohidayat</font></a> &nbsp;|&nbsp; '
-        '<a href="https://renohidayat.web.app"><font color="#0D529C">renohidayat.web.app</font></a>'
+        '<a href="https://renohidayat.my.id"><font color="#0D529C">renohidayat.my.id</font></a>'
     )
     story.append(Paragraph(contact_text, contact_style))
 
@@ -162,11 +162,11 @@ def build_pdf(filename):
 
     # Experience 1
     add_item_header("Fakultas Ekonomi dan Bisnis (FEB) UNSAP", "Sumedang, Indonesia", "Full-Stack Developer", "Nov 2025 - May 2026")
-    story.append(Paragraph("• &nbsp; Redesigned and redeveloped the official faculty website using Laravel, PHP, MySQL, and Tailwind CSS to improve its interface and presentation of academic information.", bullet_style))
+    story.append(Paragraph("• &nbsp; Redesigned and engineered the official faculty web portal & CMS using Laravel 12, PHP 8.2, MySQL, and Tailwind CSS across 30 Eloquent models, 59 migrations, 64 controllers (23 Admin CMS modules), and 201 Blade views to serve 3 study programs, 1,500+ students, 45+ lecturers, and 5,000+ alumni.", bullet_style))
     story.append(Paragraph("• &nbsp; Designed and developed SIPENA, a digital examination and attendance platform integrating Flutter, React, and Firebase.", bullet_style))
     story.append(Paragraph("• &nbsp; Implemented real-time attendance monitoring with 10-second heartbeat tracking and background activity detection.", bullet_style))
     story.append(Paragraph("• &nbsp; Integrated automated PDF generation for attendance records and examination reports, along with Firebase Cloud Messaging (FCM) notifications.", bullet_style))
-    story.append(Paragraph("• &nbsp; Developed content management features for faculty news, lecturer profiles, academic information, and institutional activities.", bullet_style))
+    story.append(Paragraph("• &nbsp; Built automated student letter workflows (DOCX generation via PHPWord), bulk Excel imports, Google OAuth, Multi-Role RBAC, and CSP/reCAPTCHA security—helping surface institutional governance & accreditation archives when S1 Management achieved LAMEMBA 'Unggul' accreditation (Nov 2026).", bullet_style))
     story.append(Spacer(1, 4))
 
     # Experience 2

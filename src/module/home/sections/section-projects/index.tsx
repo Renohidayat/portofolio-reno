@@ -59,15 +59,15 @@ const projects: ExperienceRowProps[] = [
   {
     text1: 'Website FEB UNSAP',
     text2: '2025 - 2026',
-    text3: 'Full Stack Web Developer (CMS Fakultas)',
+    text3: 'Full Stack Developer · 23 Modul CMS · 1.500+ Mahasiswa',
     color: '#0091F8',
     hoverElement: <FebUnsapHoverPreview />,
     fullViewImage: [FebMockup1, FebMockup2, FebMockup3],
-    fullViewTitle: 'Portal Resmi FEB UNSAP (Laravel & MySQL)',
+    fullViewTitle: 'Portal Resmi FEB UNSAP (Laravel 12 · 23 Modul CMS · 3 Prodi)',
     link: 'https://feb.unsap.ac.id/',
     techStack: [
-      { name: 'Laravel', icon: SiLaravel },
-      { name: 'PHP', icon: SiPhp },
+      { name: 'Laravel 12', icon: SiLaravel },
+      { name: 'PHP 8.2', icon: SiPhp },
       { name: 'MySQL', icon: SiMysql },
       { name: 'Tailwind CSS', icon: SiTailwindcss },
       { name: 'Vite', icon: SiVite }

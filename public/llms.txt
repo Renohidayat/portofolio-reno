@@ -32,7 +32,7 @@ M. Reno Hidayat is a Full Stack Engineer based in Indonesia, specializing in web
 - Cross-platform (Android & iOS PWA)
 
 ### Backend
-- Laravel 11, PHP 8.2
+- Laravel 12, PHP 8.2
 - Node.js, Express
 - FastAPI (Python)
 - MySQL, Firebase (Firestore, Realtime DB, Auth, Cloud Messaging)
@@ -51,8 +51,8 @@ Tech: Flutter, Dart, Firebase, Node.js, React PWA
 Link: https://github.com/Renohidayat/feb-unsap-exam
 
 ### 2. Website FEB UNSAP — Official Faculty Portal (2025-2026)
-Official web portal and academic CMS for the Faculty of Economics & Business, Universitas Sebelas April. Built with Laravel 11, PHP 8.2, and MySQL. Features department profiles, faculty agendas, news publication, study program curricula, and lecturer directory.
-Tech: Laravel, PHP, MySQL, Tailwind CSS, Vite
+Official web portal and academic CMS for the Faculty of Economics & Business, Universitas Sebelas April serving 3 study programs, 1,500+ students, 45+ lecturers, and 5,000+ alumni. Engineered with Laravel 12, PHP 8.2, MySQL, and Tailwind CSS across 30 Eloquent models, 59 migrations, 64 controllers (23 Admin CMS modules), and 201 Blade views—featuring digital student letter submission with DOCX export (PHPWord), bulk Excel imports, Google OAuth, Multi-Role RBAC, and CSP security, supporting institutional governance transparency during S1 Management's LAMEMBA "Unggul" accreditation (Nov 2026).
+Tech: Laravel 12, PHP 8.2, MySQL, Tailwind CSS, Vite
 Link: https://feb.unsap.ac.id/
 
 ### 3. Jelajah Nusantara AI — AI Travel Planner (2026)

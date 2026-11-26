@@ -75,17 +75,18 @@ const Experiences = () => {
               title="Website FEB UNSAP"
               sentences={[
                 lang === 'id'
-                  ? 'Pusat Informasi Digital & CMS Portal FEB UNSAP'
-                  : 'Official Web Portal & CMS of FEB UNSAP',
+                  ? 'Portal Resmi & CMS Akademik (30 Model · 59 Migrasi · 23 Modul Admin CMS · 201 Views)'
+                  : 'Official Portal & CMS (30 Models · 59 Migrations · 23 Admin CMS Modules · 201 Views)',
                 lang === 'id'
-                  ? 'Full Stack Web Developer (Project-Based) · Laravel 11, PHP 8.2, MySQL, Tailwind CSS · 2025 - 2026'
-                  : 'Full Stack Web Developer (Project-Based) · Laravel 11, PHP 8.2, MySQL, Tailwind CSS · 2025 - 2026'
+                  ? 'Melayani 3 Prodi, 1.500+ Mahasiswa, 45+ Dosen & 5.000+ Alumni · Layanan Surat DOCX, Google OAuth & RBAC · Turut mendukung transparansi Akreditasi Unggul LAMEMBA (2026)'
+                  : 'Serving 3 Study Programs, 1,500+ Students, 45+ Lecturers & 5,000+ Alumni · Automated DOCX Letters, Google OAuth & RBAC · Supporting LAMEMBA Unggul Accreditation Transparency (2026)',
+                'Full Stack Web Developer (Project-Based) · Laravel 12, PHP 8.2, MySQL, Tailwind CSS · 2025 - 2026'
               ]}
               link="https://feb.unsap.ac.id/"
               className="mt-5"
               techStack={[
-                { name: 'Laravel', icon: SiLaravel },
-                { name: 'PHP', icon: SiPhp },
+                { name: 'Laravel 12', icon: SiLaravel },
+                { name: 'PHP 8.2', icon: SiPhp },
                 { name: 'MySQL', icon: SiMysql },
                 { name: 'Tailwind CSS', icon: SiTailwindcss },
                 { name: 'Vite', icon: SiVite }
