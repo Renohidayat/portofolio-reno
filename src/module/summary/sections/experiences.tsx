@@ -54,13 +54,14 @@ const Experiences = () => {
           <ul className="list-disc marker:text-white">
             <Experience
               title="SIPENA"
+              badge={lang === 'id' ? 'Pre-Deployment' : 'Completed System'}
               sentences={[
                 lang === 'id'
-                  ? 'Sistem Informasi Ujian & Absensi Terintegrasi FEB UNSAP'
-                  : 'Integrated Exam & Attendance Information System FEB UNSAP',
+                  ? 'Sistem Informasi Ujian & Absensi Multi-Platform (Android Flutter, iOS PWA, Web Admin React) · Koordinasi Teknis Staf IT FEB UNSAP'
+                  : 'Multi-Platform Digital Exam & Attendance System (Android Flutter, iOS PWA, React Admin) · Technical Coordination w/ FEB UNSAP IT Staff',
                 lang === 'id'
-                  ? 'System Analyst, System Architect & Lead Backend · Heartbeat 10s, Anti-Cheat, Cloud Functions & FCM · 2026'
-                  : 'System Analyst, System Architect & Lead Backend · 10s Heartbeat, Anti-Cheat, Cloud Functions & FCM · 2026'
+                  ? 'System Analyst, Architect & Lead Backend · Heartbeat 10s, Anti-Cheat, Cloud Functions, Auto-PDF & FCM · 2026'
+                  : 'System Analyst, Architect & Lead Backend · 10s Heartbeat, Anti-Cheat, Cloud Functions, Auto-PDF & FCM · 2026'
               ]}
               link="https://github.com/Renohidayat/feb-unsap-exam"
               techStack={[

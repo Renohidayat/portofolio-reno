@@ -163,9 +163,6 @@ def build_pdf(filename):
     # Experience 1
     add_item_header("Fakultas Ekonomi dan Bisnis (FEB) UNSAP", "Sumedang, Indonesia", "Full-Stack Developer", "Nov 2025 - May 2026")
     story.append(Paragraph("• &nbsp; Redesigned and engineered the official faculty web portal & CMS using Laravel 12, PHP 8.2, MySQL, and Tailwind CSS across 30 Eloquent models, 59 migrations, 64 controllers (23 Admin CMS modules), and 201 Blade views to serve 3 study programs, 1,500+ students, 45+ lecturers, and 5,000+ alumni.", bullet_style))
-    story.append(Paragraph("• &nbsp; Designed and developed SIPENA, a digital examination and attendance platform integrating Flutter, React, and Firebase.", bullet_style))
-    story.append(Paragraph("• &nbsp; Implemented real-time attendance monitoring with 10-second heartbeat tracking and background activity detection.", bullet_style))
-    story.append(Paragraph("• &nbsp; Integrated automated PDF generation for attendance records and examination reports, along with Firebase Cloud Messaging (FCM) notifications.", bullet_style))
     story.append(Paragraph("• &nbsp; Built automated student letter workflows (DOCX generation via PHPWord), bulk Excel imports, Google OAuth, Multi-Role RBAC, and CSP/reCAPTCHA security—helping surface institutional governance & accreditation archives when S1 Management achieved LAMEMBA 'Unggul' accreditation (Nov 2026).", bullet_style))
     story.append(Spacer(1, 4))
 
@@ -179,7 +176,15 @@ def build_pdf(filename):
     # 4. PROJECTS AND COMMUNITY
     add_section_header("PROJECTS AND COMMUNITY")
 
-    # Project 1: Jelajah Nusantara
+    # Project 1: SIPENA
+    add_item_header("SIPENA – Digital Examination & Attendance Platform (Pre-Deployment)", "2026")
+    story.append(Paragraph(
+        "Architected and built end-to-end in technical coordination with FEB UNSAP IT staff integrating Android Flutter, iOS PWA, React Admin, and Firebase/Node.js backend. "
+        "Implemented real-time 10-second heartbeat monitoring, background anti-cheat detection, automated PDF attendance minutes, and batch FCM notifications.", body_style
+    ))
+    story.append(Spacer(1, 4))
+
+    # Project 2: Jelajah Nusantara
     add_item_header("Jelajah Nusantara AI – AI-Powered Travel Planner", "2026")
     story.append(Paragraph(
         "Developed an AI-powered travel planning web application using JavaScript, Vite, Node.js, Express, and Firebase. "
@@ -191,7 +196,7 @@ def build_pdf(filename):
     # PAGE BREAK FOR EXACT 2-PAGE LAYOUT
     story.append(PageBreak())
 
-    # Project 2: CGMI
+    # Project 3: CGMI
     add_item_header("CGMI Assessment App – Civic GovTech Platform", "2026")
     story.append(Paragraph(
         "Developed a web-based assessment platform for evaluating collaborative governance in Sumedang. "

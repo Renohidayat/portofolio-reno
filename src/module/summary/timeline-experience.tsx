@@ -15,14 +15,6 @@ type TimelineItem = {
 
 const items: TimelineItem[] = [
   {
-    monogram: 'SP',
-    color: '#2E9E6C',
-    title: 'SIPENA (FEB UNSAP)',
-    role: 'System Analyst, System Architect & Lead Backend',
-    range: 'Jan 2026 - Present',
-    link: 'https://github.com/Renohidayat/feb-unsap-exam'
-  },
-  {
     monogram: 'FU',
     color: '#0091F8',
     title: 'FEB UNSAP',

@@ -77,27 +77,6 @@ export default function SectionExperiences() {
   }
   const experiences: ExperienceRowProps[] = [
     {
-      text1: 'SIPENA',
-      text2: 'Jan 2026 - Present',
-      text3: 'System Analyst, Architect & Lead Backend',
-      description:
-        lang === 'id'
-          ? 'Perancangan dan pengembangan platform ujian digital real-time skala besar untuk FEB UNSAP. Bertanggung jawab atas analisis kebutuhan sistem, arsitektur serverless (Firestore & Realtime DB dengan 10s heartbeat monitoring), keamanan anti-cheat, rekapitulasi absensi otomatis ke PDF, serta notifikasi massal Firebase Cloud Messaging (FCM).'
-          : 'System architecture and backend engineering for a high-volume real-time campus exam platform at FEB UNSAP. Built distributed serverless topology (Firestore & Realtime DB with 10s heartbeat monitoring), anti-cheat mechanisms, automated PDF attendance reports, and batch push notifications via FCM.',
-      color: '#2E9E6C',
-      hoverElement: <SipenaHoverPreview />,
-      fullViewImage: SipenaLogo,
-      fullViewTitle: 'SIPENA - Sistem Informasi Ujian & Absensi FEB UNSAP',
-      link: 'https://github.com/Renohidayat/feb-unsap-exam',
-      techStack: [
-        { name: 'Flutter', icon: SiFlutter },
-        { name: 'Dart', icon: SiDart },
-        { name: 'Firebase', icon: SiFirebase },
-        { name: 'Node.js', icon: SiNodedotjs },
-        { name: 'React PWA', icon: SiReact }
-      ]
-    },
-    {
       text1: 'FEB UNSAP',
       text2: 'Nov 2025 - May 2026',
       text3: 'Full Stack Web Developer (Portal & 23 Modul CMS)',
@@ -157,11 +136,11 @@ export default function SectionExperiences() {
     {
       text1: 'SIPENA',
       text2: '2026',
-      text3: 'Sistem Informasi Ujian & Absensi',
+      text3: 'Sistem Informasi Ujian & Absensi (Completed · Pre-Deployment)',
       description:
         lang === 'id'
-          ? 'Ekosistem ujian digital kampus terdistribusi menangani ribuan mahasiswa simultan dengan Android Flutter, iOS PWA, Web Admin React, 10s heartbeat live monitoring, deteksi kecurangan latar belakang, dan Berita Acara PDF instan.'
-          : 'Distributed campus digital examination ecosystem handling thousands of concurrent students with Android Flutter, iOS PWA, React Web Admin, 10s heartbeat live monitoring, background anti-cheat, and instant PDF minutes.',
+          ? 'Ekosistem ujian digital multi-platform (Android Flutter, iOS PWA, Web Admin React) yang dirancang dan dibangun selesai dalam koordinasi teknis bersama staf IT untuk skenario ujian akademik FEB UNSAP. Mengimplementasikan arsitektur serverless (Firestore & Realtime DB), 10s heartbeat live monitoring, deteksi perpindahan aplikasi anti-cheat, rekapitulasi Berita Acara PDF otomatis, serta notifikasi batch Firebase Cloud Messaging (FCM).'
+          : 'Multi-platform digital examination ecosystem (Android Flutter, iOS PWA, React Web Admin) architected and completed end-to-end (pre-deployment) in technical coordination with IT staff for FEB UNSAP examination workflows. Features serverless Firestore & Realtime DB architecture, 10s heartbeat live monitoring, background anti-cheat detection, automated PDF minutes, and batch FCM notifications.',
       color: '#2E9E6C',
       hoverElement: <SipenaHoverPreview />,
       fullViewImage: SipenaLogo,

@@ -57,13 +57,13 @@ M. Reno Hidayat is a Full Stack Engineer who designs, builds, and ships software
 
 ### Project 1: SIPENA — Sistem Informasi Ujian & Absensi FEB UNSAP
 
-**Year:** 2026 (January — Present)
+**Year:** 2026 (Completed System · Pre-Deployment)
 **Role:** System Analyst, Architect & Lead Backend
-**Client:** Faculty of Economics & Business, Universitas Sebelas April
+**Context:** Independent technical initiative developed in coordination with FEB UNSAP IT staff
 **URL:** https://github.com/Renohidayat/feb-unsap-exam
 **Tech Stack:** Flutter, Dart, Firebase (Firestore, Realtime DB, Auth, Cloud Messaging), Node.js, React PWA
 
-**Problem:** The faculty needed a scalable digital examination system to handle thousands of concurrent students with real-time monitoring, attendance tracking, and anti-cheat capabilities.
+**Problem:** Academic examinations require reliable digital monitoring, live attendance tracking, and anti-cheat safeguards designed to support concurrent student exam sessions.
 
 **Solution:** A distributed multi-platform ecosystem consisting of:
 - **Android App** (Flutter): Student exam interface with real-time question delivery
@@ -78,7 +78,7 @@ M. Reno Hidayat is a Full Stack Engineer who designs, builds, and ships software
 - Batch push notifications via Firebase Cloud Messaging (FCM)
 - Automated attendance recapitulation with PDF export
 
-**Impact:** Successfully deployed for campus-wide examinations handling concurrent student sessions.
+**Status & Readiness:** Complete codebase & multi-platform ecosystem engineered and tested; pending formal faculty submission and official institutional rollout.
 
 ---
 

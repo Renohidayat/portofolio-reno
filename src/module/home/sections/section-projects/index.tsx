@@ -42,7 +42,7 @@ const projects: ExperienceRowProps[] = [
   {
     text1: 'SIPENA',
     text2: '2026',
-    text3: 'System Analyst, Architect & Lead Backend',
+    text3: 'Full Stack System Architect · Pre-Deployment',
     color: '#2E9E6C',
     hoverElement: <SipenaHoverPreview />,
     fullViewImage: SipenaLogo,
