@@ -280,11 +280,11 @@ def build_pdf(filename: str) -> None:
         Paragraph(
             "Informatics graduate (S.Kom., GPA 3.52/4.00) from Universitas Sebelas April specializing in full-stack "
             "web and mobile software engineering, backend architectures, and applied AI/ML integration. Experienced "
-            "in shipping end-to-end systems—including university portals serving 1,500+ students, distributed exam "
-            "monitoring platforms, FastAPI ML services, and civic GovTech tools using Laravel, Flutter, React, "
-            "Python, and Firebase. Published researcher in information security behavior (PLS-SEM) and holder of "
-            "15+ verified credentials across Dicoding AWS AI Academy (173 hours), IBM SkillsBuild, Google Cloud "
-            "Gold League, and ASEAN Foundation.",
+            "in shipping end-to-end systems independently for external clients and research initiatives—including a "
+            "faculty web portal serving 1,500+ students, distributed exam monitoring platforms, FastAPI ML services, "
+            "and civic GovTech tools using Laravel, Flutter, React, Python, and Firebase. Published researcher in "
+            "information security behavior (PLS-SEM) and holder of 15+ verified credentials across Dicoding AWS AI "
+            "Academy (173 hours), IBM SkillsBuild, Google Cloud Gold League, and ASEAN Foundation.",
             body_style,
         )
     )
@@ -292,25 +292,26 @@ def build_pdf(filename: str) -> None:
     # 3. Experience
     add_section_header("EXPERIENCE")
     add_entry(
-        "Fakultas Ekonomi dan Bisnis (FEB) UNSAP",
+        "Independent Full-Stack Web Developer (Freelance)",
         "Sumedang, Indonesia",
-        "Full-Stack Web Developer (Project-Based)",
+        "External Client Project: Official Portal &amp; CMS for FEB UNSAP (feb.unsap.ac.id)",
         "Nov 2025 - May 2026",
         [
-            "Redesigned and engineered the official faculty web portal and CMS (feb.unsap.ac.id) using Laravel 12, "
-            "PHP 8.2, MySQL, and Tailwind CSS across 30 Eloquent models, 59 migrations, 64 controllers (23 Admin "
-            "CMS modules), and 201 Blade views serving 3 study programs, 1,500+ students, 45+ lecturers, and "
-            "5,000+ alumni.",
-            "Built automated student letter workflows with DOCX generation via PHPWord, bulk student Excel imports, "
-            "Google Socialite OAuth, Multi-Role RBAC, and Spatie CSP/reCAPTCHA security—supporting faculty governance "
-            "transparency during S1 Management's LAMEMBA 'Unggul' accreditation achievement (Nov 2026).",
+            "Independently architected and delivered the official faculty web portal and CMS (feb.unsap.ac.id) as an "
+            "external client engagement using Laravel 12, PHP 8.2, MySQL, and Tailwind CSS across 30 Eloquent models, "
+            "59 migrations, 64 controllers (23 Admin CMS modules), and 201 Blade views serving 3 study programs, "
+            "1,500+ students, 45+ lecturers, and 5,000+ alumni.",
+            "Implemented automated student correspondence workflows (DOCX export via PHPWord), bulk student Excel "
+            "imports, Google Socialite OAuth, Multi-Role RBAC, and Spatie CSP/reCAPTCHA hardening—equipping the client "
+            "with public governance and accreditation archives prior to S1 Management's LAMEMBA 'Unggul' accreditation "
+            "(Nov 2026).",
         ],
         right_width=125,
     )
     add_entry(
         "KKN Tematik Desa Serang - Universitas Sebelas April",
         "Sumedang, Indonesia",
-        "Web Developer &amp; Digital Documentation (PDD Team)",
+        "Student Community Service: Web Developer &amp; Digital Documentation",
         "Jan 2026 - Feb 2026",
         [
             "Built and deployed a 12-SKU digital storefront (Rp10k-Rp17k) for local MSME Dapoer Sari Pohaci on "
@@ -330,12 +331,12 @@ def build_pdf(filename: str) -> None:
     add_entry(
         "SIPENA - Digital Examination &amp; Attendance Platform",
         "2026",
-        "System Analyst, Architect &amp; Lead Backend (Flutter, React PWA, Node.js, Firebase)",
+        "Independent Project | System Analyst &amp; Lead Backend (Flutter, React PWA, Node.js, Firebase)",
         "Pre-Deployment",
         [
-            "Architected a multi-platform examination ecosystem in technical coordination with FEB UNSAP IT staff, "
-            "unifying an Android Flutter student client, iOS React PWA, React Web Admin dashboard, and serverless "
-            "Node.js/Firebase backend.",
+            "Independently architected a multi-platform examination ecosystem in technical coordination with FEB UNSAP "
+            "IT staff, unifying an Android Flutter student client, iOS React PWA, React Web Admin dashboard, and "
+            "serverless Node.js/Firebase backend.",
             "Implemented 10-second real-time heartbeat tracking via Firebase Realtime Database, background anti-cheat "
             "guards, automated PDF attendance minutes (Berita Acara), and batch FCM push notifications.",
         ],

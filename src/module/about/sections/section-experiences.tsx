@@ -77,13 +77,16 @@ export default function SectionExperiences() {
   }
   const experiences: ExperienceRowProps[] = [
     {
-      text1: 'FEB UNSAP',
+      text1: 'Independent Developer',
       text2: 'Nov 2025 - May 2026',
-      text3: 'Full Stack Web Developer (Portal & 23 Modul CMS)',
+      text3:
+        lang === 'id'
+          ? 'Proyek Klien: Portal Web & CMS FEB UNSAP (Non-Pegawai · Berbasis Proyek)'
+          : 'Client Project: FEB UNSAP Web Portal & CMS (External · Project-Based)',
       description:
         lang === 'id'
-          ? 'Merancang dan membangun ulang portal web resmi & CMS Fakultas Ekonomi dan Bisnis UNSAP menggunakan Laravel 12, PHP 8.2, MySQL, dan Tailwind CSS untuk melayani 3 program studi (Manajemen, Akuntansi, Magister Manajemen), 1.500+ mahasiswa, 45+ dosen, serta 5.000+ alumni. Arsitektur mencakup 30 model Eloquent, 59 migrasi database, 64 controller (23 modul Admin CMS), dan 201 Blade views—lengkap dengan sistem pengajuan surat mahasiswa digital (auto-generate DOCX via PHPWord), impor Excel, Google OAuth, Multi-Role RBAC, serta keamanan CSP & reCAPTCHA. Portal ini ikut menjadi data dukung keterbukaan informasi tata kelola & repositori SK saat Prodi S1 Manajemen meraih Akreditasi Unggul LAMEMBA (Nov 2026).'
-          : 'Redesigned and engineered the official web portal and academic CMS for FEB UNSAP using Laravel 12, PHP 8.2, MySQL, and Tailwind CSS—serving 3 study programs (Management, Accounting, Master of Management), 1,500+ students, 45+ lecturers, and 5,000+ alumni. Built across 30 Eloquent models, 59 database migrations, 64 controllers (23 Admin CMS modules), and 201 Blade views featuring automated DOCX student letter workflows (PHPWord), bulk Excel imports, Google OAuth, Multi-Role RBAC, and CSP/reCAPTCHA security, supporting governance transparency when S1 Management achieved LAMEMBA "Unggul" accreditation (Nov 2026).',
+          ? 'Berperan sebagai developer eksternal independen (berbasis proyek, bukan pegawai/staf kampus) yang merancang dan membangun ulang portal web resmi & CMS untuk Fakultas Ekonomi dan Bisnis UNSAP menggunakan Laravel 12, PHP 8.2, MySQL, dan Tailwind CSS. Melayani 3 program studi (Manajemen, Akuntansi, Magister Manajemen), 1.500+ mahasiswa, 45+ dosen, serta 5.000+ alumni lewat 30 model Eloquent, 59 migrasi database, 64 controller (23 modul Admin CMS), dan 201 Blade views—lengkap dengan surat mahasiswa digital (DOCX via PHPWord), impor Excel, Google OAuth, Multi-Role RBAC, serta keamanan CSP & reCAPTCHA saat Prodi S1 Manajemen meraih Akreditasi Unggul LAMEMBA (Nov 2026).'
+          : 'Engaged independently as an external project-based developer (non-staff) to redesign and engineer the official web portal and academic CMS for FEB UNSAP using Laravel 12, PHP 8.2, MySQL, and Tailwind CSS—serving 3 study programs (Management, Accounting, Master of Management), 1,500+ students, 45+ lecturers, and 5,000+ alumni. Built across 30 Eloquent models, 59 database migrations, 64 controllers (23 Admin CMS modules), and 201 Blade views featuring automated DOCX student letter workflows (PHPWord), bulk Excel imports, Google OAuth, Multi-Role RBAC, and CSP/reCAPTCHA security supporting governance transparency during S1 Management\'s LAMEMBA "Unggul" accreditation (Nov 2026).',
       color: '#0091F8',
       hoverElement: <FebUnsapHoverPreview />,
       fullViewImage: [FebMockup1, FebMockup2, FebMockup3],
@@ -157,11 +160,14 @@ export default function SectionExperiences() {
     {
       text1: 'Website FEB UNSAP',
       text2: '2025 - 2026',
-      text3: 'Portal Akademik, Layanan Surat & 23 Modul CMS',
+      text3:
+        lang === 'id'
+          ? 'Proyek Klien Independen · Portal Akademik & 23 Modul CMS'
+          : 'Independent Client Project · Academic Portal & 23 CMS Modules',
       description:
         lang === 'id'
-          ? 'Portal informasi resmi & CMS FEB UNSAP (Laravel 12, MySQL) dengan 30 model Eloquent, 59 migrasi DB, 23 modul Admin CMS, dan 201 Blade views—melayani 3 prodi, 1.500+ mahasiswa, 45+ dosen, & 5.000+ alumni. Dilengkapi pengajuan surat digital (ekspor DOCX otomatis), direktori akreditasi, portal jurnal, Google OAuth, dan Multi-Role RBAC yang turut mendukung transparansi tata kelola saat Prodi S1 Manajemen meraih Akreditasi Unggul LAMEMBA.'
-          : 'Official FEB UNSAP portal & academic CMS (Laravel 12, MySQL) spanning 30 Eloquent models, 59 DB migrations, 23 Admin CMS modules, and 201 Blade views—serving 3 study programs, 1,500+ students, 45+ lecturers, and 5,000+ alumni with automated DOCX student letter workflows, accreditation archives, journal portals, Google OAuth, and RBAC, supporting S1 Management achieving LAMEMBA "Unggul" accreditation.',
+          ? 'Proyek eksternal independen membangun portal informasi resmi & CMS FEB UNSAP (Laravel 12, MySQL) dengan 30 model Eloquent, 59 migrasi DB, 23 modul Admin CMS, dan 201 Blade views—melayani 3 prodi, 1.500+ mahasiswa, 45+ dosen, & 5.000+ alumni. Dilengkapi pengajuan surat digital (ekspor DOCX otomatis), direktori akreditasi, portal jurnal, Google OAuth, dan Multi-Role RBAC yang turut mendukung transparansi tata kelola saat Prodi S1 Manajemen meraih Akreditasi Unggul LAMEMBA.'
+          : 'Independent external client deliverable for FEB UNSAP\'s official portal & academic CMS (Laravel 12, MySQL) spanning 30 Eloquent models, 59 DB migrations, 23 Admin CMS modules, and 201 Blade views—serving 3 study programs, 1,500+ students, 45+ lecturers, and 5,000+ alumni with automated DOCX student letter workflows, accreditation archives, journal portals, Google OAuth, and RBAC.',
       color: '#0091F8',
       hoverElement: <FebUnsapHoverPreview />,
       fullViewImage: [FebMockup1, FebMockup2, FebMockup3],

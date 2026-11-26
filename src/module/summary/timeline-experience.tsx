@@ -15,10 +15,10 @@ type TimelineItem = {
 
 const items: TimelineItem[] = [
   {
-    monogram: 'FU',
+    monogram: 'ID',
     color: '#0091F8',
-    title: 'FEB UNSAP',
-    role: 'Independent Web Developer (Project-Based)',
+    title: 'Independent Web Developer',
+    role: 'Client Project: Website FEB UNSAP (Freelance · Non-Staff)',
     range: 'Nov 2025 - May 2026',
     link: 'https://feb.unsap.ac.id/'
   },

@@ -85,7 +85,7 @@ M. Reno Hidayat is a Full Stack Engineer who designs, builds, and ships software
 ### Project 2: Website FEB UNSAP — Official Faculty Portal
 
 **Year:** 2025 — 2026
-**Role:** Full Stack Web Developer
+**Role:** Independent Full-Stack Web Developer (External Client Engagement · Non-Staff)
 **Client:** Faculty of Economics & Business, Universitas Sebelas April
 **URL:** https://feb.unsap.ac.id/
 **Tech Stack:** Laravel 12, PHP 8.2, MySQL, Tailwind CSS, Vite, Google Socialite OAuth, PHPWord, Maatwebsite Excel, Spatie CSP

@@ -81,7 +81,9 @@ const Experiences = () => {
                 lang === 'id'
                   ? 'Melayani 3 Prodi, 1.500+ Mahasiswa, 45+ Dosen & 5.000+ Alumni · Layanan Surat DOCX, Google OAuth & RBAC · Turut mendukung transparansi Akreditasi Unggul LAMEMBA (2026)'
                   : 'Serving 3 Study Programs, 1,500+ Students, 45+ Lecturers & 5,000+ Alumni · Automated DOCX Letters, Google OAuth & RBAC · Supporting LAMEMBA Unggul Accreditation Transparency (2026)',
-                'Full Stack Web Developer (Project-Based) · Laravel 12, PHP 8.2, MySQL, Tailwind CSS · 2025 - 2026'
+                lang === 'id'
+                  ? 'Developer Web Independen (Proyek Klien Eksternal) · Laravel 12, PHP 8.2, MySQL, Tailwind CSS · 2025 - 2026'
+                  : 'Independent Web Developer (External Client Project) · Laravel 12, PHP 8.2, MySQL, Tailwind CSS · 2025 - 2026'
               ]}
               link="https://feb.unsap.ac.id/"
               className="mt-5"

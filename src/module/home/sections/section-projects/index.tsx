@@ -59,7 +59,7 @@ const projects: ExperienceRowProps[] = [
   {
     text1: 'Website FEB UNSAP',
     text2: '2025 - 2026',
-    text3: 'Full Stack Developer · 23 Modul CMS · 1.500+ Mahasiswa',
+    text3: 'Independent Client Project · 23 Modul CMS · Laravel 12',
     color: '#0091F8',
     hoverElement: <FebUnsapHoverPreview />,
     fullViewImage: [FebMockup1, FebMockup2, FebMockup3],
