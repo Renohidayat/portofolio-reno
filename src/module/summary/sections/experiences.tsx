@@ -167,7 +167,14 @@ const Experiences = () => {
             />
             <Experience
               title="Dapoer Sari Pohaci"
-              sentences={['Digitalisasi UMKM Tradisional Serang, Sumedang', 'KKN Pengabdian Masyarakat · Tailwind CSS, JS, Firebase · 2026']}
+              sentences={[
+                lang === 'id'
+                  ? 'Etalase Web 12 SKU UMKM Tradisional Serang (Rp10k–Rp17k) · Order WhatsApp 1-Klik & Google Maps (4 Reels · 2.628 Views)'
+                  : '12-SKU Digital MSME Storefront (Rp10k–Rp17k) · 1-Click WhatsApp & Google Maps (4 Reels · 2,628 Views)',
+                lang === 'id'
+                  ? 'KKN Tematik Desa Serang (Tim PDD: 66 Konten · 27.598 Views) · Tailwind CSS, JS, Firebase · 2026'
+                  : 'KKN Tematik Desa Serang (PDD Team: 66 Posts/Reels · 27,598 Views) · Tailwind CSS, JS, Firebase · 2026'
+              ]}
               link="https://dapoer-saripohaci.web.app/"
               className="mt-5"
               techStack={[

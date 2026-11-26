@@ -75,8 +75,8 @@ Cross-platform mobile anime streaming app built with Flutter and Dart. Features 
 Tech: Flutter, Dart, Firebase
 Link: https://apkpure.com/id/nimexx/com.rennv.nimexxv2
 
-### 7. Dapoer Sari Pohaci — MSME Digitization (2026)
-Digital storefront web app empowering a local traditional food business in Serang Village, built during university community service (KKN). Features product catalog and direct WhatsApp ordering.
+### 7. Dapoer Sari Pohaci & KKN Desa Serang Digital Documentation (2026)
+Digital storefront web app (12 traditional snack SKUs, Rp10k–Rp17k) empowering a local MSME in Serang Village with 1-click WhatsApp ordering and Google Maps integration (4 Reels, 2,628 views), paired with co-managing a 2-person PDD team (@kkndesaserang2026.archive) for 20 KKN students across a 32-day cycle producing 66 total content pieces (33 feed posts + 33 Reels totaling 27,598 views, 575 likes, 35 Story Highlights, and 3 digital security literacy Reels).
 Tech: Tailwind CSS, JavaScript, Firebase
 Link: https://dapoer-saripohaci.web.app/
 

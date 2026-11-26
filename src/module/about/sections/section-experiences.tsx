@@ -100,15 +100,15 @@ export default function SectionExperiences() {
     {
       text1: 'Dapoer Sari Pohaci',
       text2: 'Jan 2026 - Feb 2026',
-      text3: 'Web Developer (KKN Pengabdian)',
+      text3: 'Web Developer · 12 SKU Katalog UMKM (KKN Pengabdian)',
       description:
         lang === 'id'
-          ? 'Kegiatan lapangan pengabdian masyarakat KKN Tematik di Desa Serang, Sumedang dengan mendigitalisasi pelaku UMKM kuliner tradisional melalui perancangan website profil produk dan katalog daring.'
-          : 'Community service field initiative during university KKN in Serang Village, Sumedang, digitizing a local culinary MSME with a responsive product showcase and web catalog.',
+          ? 'Digitalisasi UMKM kuliner tradisional Desa Serang melalui etalase web di Firebase Hosting yang memuat 12 varian/SKU produk (Rp10.000–Rp17.000), pemesanan 1-klik WhatsApp otomatis, integrasi Google Maps, TikTok, dan Instagram. Dilengkapi pendampingan langsung dan serah terima media banner kepada pemilik usaha (4 Reels dokumentasi dengan 2.628 views).'
+          : 'Digitized a local traditional food MSME in Serang Village by deploying a responsive storefront on Firebase Hosting featuring 12 product SKUs (Rp10k–Rp17k), 1-click pre-filled WhatsApp ordering, Google Maps location routing, and social links, paired with direct owner onboarding and promotional banner handoff (4 Reels, 2,628 views).',
       color: '#F1592A',
       hoverElement: <DapoerPohaciHoverPreview />,
       fullViewImage: [PohaciMockup, Pohaci1, Pohaci2],
-      fullViewTitle: 'Dapoer Sari Pohaci - Digitalisasi UMKM Kuliner (KKN)',
+      fullViewTitle: 'Dapoer Sari Pohaci - Digitalisasi UMKM Kuliner (12 SKU · KKN)',
       link: 'https://dapoer-saripohaci.web.app/',
       techStack: [
         { name: 'Tailwind CSS', icon: SiTailwindcss },
@@ -119,15 +119,15 @@ export default function SectionExperiences() {
     {
       text1: 'KKN Desa Serang',
       text2: 'Jan 2026 - Feb 2026',
-      text3: 'Publikasi & Dokumentasi (@kkndesaserang2026.archive)',
+      text3: 'Publikasi & Dokumentasi · 66 Konten · 27.598+ Views',
       description:
         lang === 'id'
-          ? 'Peran lapangan sebagai divisi Publikasi dan Dokumentasi (PDD) KKN Tematik UNSAP 2026 di Desa Serang. Bertanggung jawab atas peliputan kegiatan pengabdian, produksi konten audio-visual, dan kurasi arsip media sosial resmi.'
-          : 'Field role in Publication & Documentation (PDD) for KKN Tematik UNSAP 2026 in Serang Village, responsible for event coverage, audio-visual production, and social media media archive.',
+          ? 'Berperan dalam tim Publikasi & Dokumentasi (2 orang PDD untuk 20 mahasiswa KKN Tematik UNSAP 2026) mengelola akun @kkndesaserang2026.archive selama siklus 32 hari—memproduksi 33 feed split-grid, 33 video Reels (total 27.598 views, 575 likes, 80 repost, 69 share; 7 Reels tembus > 1.000 views), serta 35 Story Highlights (Day 1–32). Turut meliput sosialisasi keamanan digital masyarakat (3 Reels, 1.556 views) dan kolaborasi lintas akun bersama @sdn_malangbong_smd & @disdik_sumedang.'
+          : 'Served on a 2-person Publication & Documentation (PDD) team supporting 20 KKN Tematik UNSAP 2026 students across a 32-day field cycle (@kkndesaserang2026.archive)—producing 33 structured feed posts, 33 Reels (27,598 total views, 575 likes, 80 reposts, 69 shares; 7 Reels > 1,000 views), and 35 Story Highlights (Day 1–32), including community digital security outreach (3 Reels, 1,556 views) and official collaboration with @sdn_malangbong_smd & @disdik_sumedang.',
       color: '#E1306C',
       hoverElement: <InstagramHoverPreview />,
       fullViewImage: KknIgImg,
-      fullViewTitle: 'Publikasi & Dokumentasi KKN Tematik UNSAP 2026',
+      fullViewTitle: 'Publikasi & Dokumentasi KKN Tematik UNSAP 2026 (27.598 Views)',
       link: 'https://www.instagram.com/kkndesaserang2026.archive?utm_source=ig_web_button_share_sheet&exln=ZDNlZDc0MzIxNw=='
     }
   ]
@@ -261,15 +261,15 @@ export default function SectionExperiences() {
     {
       text1: 'Dapoer Sari Pohaci',
       text2: '2026',
-      text3: 'Digitalisasi UMKM (KKN)',
+      text3: 'Etalase UMKM · 12 SKU & Order WhatsApp (KKN)',
       description:
         lang === 'id'
-          ? 'Landing page dan etalase digital berbasis Tailwind CSS dan Firebase untuk produk kuliner tradisional UMKM di Desa Serang, mempermudah pemesanan langsung via WhatsApp.'
-          : 'Digital storefront web app empowering a local traditional snack business in Serang Village with Tailwind CSS and direct WhatsApp ordering.',
+          ? 'Etalase digital & katalog 12 SKU produk camilan tradisional (Rp10.000–Rp17.000) berbasis Tailwind CSS & Firebase Hosting di Desa Serang, terintegrasi pemesanan 1-klik WhatsApp otomatis, Google Maps, dan pendampingan serah terima kepada pemilik UMKM (4 Reels promosi · 2.628 views).'
+          : 'Digital storefront & 12-SKU snack catalog (Rp10k–Rp17k) built with Tailwind CSS and Firebase Hosting in Serang Village, featuring 1-click pre-filled WhatsApp ordering, Google Maps routing, and owner onboarding (4 Reels · 2,628 views).',
       color: '#F1592A',
       hoverElement: <DapoerPohaciHoverPreview />,
       fullViewImage: [PohaciMockup, Pohaci1, Pohaci2],
-      fullViewTitle: 'Dapoer Sari Pohaci - Digital Storefront UMKM',
+      fullViewTitle: 'Dapoer Sari Pohaci - Digital Storefront UMKM (12 SKU)',
       link: 'https://dapoer-saripohaci.web.app/',
       techStack: [
         { name: 'Tailwind CSS', icon: SiTailwindcss },

@@ -170,14 +170,16 @@ M. Reno Hidayat is a Full Stack Engineer who designs, builds, and ships software
 
 ---
 
-### Project 7: Dapoer Sari Pohaci — MSME Digitization
+### Project 7: Dapoer Sari Pohaci & KKN Desa Serang Digital Documentation
 
-**Year:** 2026
-**Role:** Web Developer (Community Service / KKN)
-**URL:** https://dapoer-saripohaci.web.app/
-**Tech Stack:** Tailwind CSS, JavaScript, Firebase
+**Year:** 2026 (Jan — Feb 2026)
+**Role:** Web Developer & Publication/Documentation (PDD) Team (Community Service / KKN)
+**URL:** https://dapoer-saripohaci.web.app/ | https://www.instagram.com/kkndesaserang2026.archive/
+**Tech Stack:** Tailwind CSS, JavaScript, Firebase Hosting
 
-**Context:** University community service (KKN Tematik) in Serang Village, Sumedang. Digitized a local traditional food MSME by creating a responsive product showcase website with direct WhatsApp ordering integration.
+**Scale & Impact:**
+- **MSME Storefront (`Dapoer Sari Pohaci`):** Built and deployed a 12-SKU snack catalog (Rp10k–Rp17k) with pre-filled 1-click WhatsApp ordering, Google Maps location routing, TikTok/Instagram channels, and on-site owner handoff & banner socialization (covered across 4 Reels totaling 2,628 views)
+- **Digital Documentation (`@kkndesaserang2026.archive`):** Co-managed a 2-person PDD team supporting 20 KKN students over a 32-day field cycle—producing **33 split-grid feed posts**, **33 Reels** (**27,598 total views**, avg 836 views/Reel, 7 Reels > 1,000 views, 575 likes, 80 reposts, 69 shares), and **35 Story Highlights** (`Day 1–32` + branding archives), including 3 community digital security literacy Reels (1,556 views) and cross-account collaboration with `@sdn_malangbong_smd` and `@disdik_sumedang`.
 
 ---
 

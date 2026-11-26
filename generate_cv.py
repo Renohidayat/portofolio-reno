@@ -168,9 +168,9 @@ def build_pdf(filename):
 
     # Experience 2
     add_item_header("KKN Tematik Desa Serang – Universitas Sebelas April", "Sumedang, Indonesia", "Web Developer & Digital Documentation", "Jan 2026 - Feb 2026")
-    story.append(Paragraph("• &nbsp; Developed a digital storefront and product catalog for Dapoer Sari Pohaci, a local micro, small, and medium enterprise (MSME).", bullet_style))
-    story.append(Paragraph("• &nbsp; Integrated WhatsApp ordering to simplify customer inquiries and orders.", bullet_style))
-    story.append(Paragraph("• &nbsp; Organized digital documentation and multimedia archives to support community program reporting and promotion.", bullet_style))
+    story.append(Paragraph("• &nbsp; Built and deployed a 12-SKU digital storefront (Rp10k–Rp17k) for local MSME Dapoer Sari Pohaci on Firebase Hosting with 1-click pre-filled WhatsApp ordering, Google Maps, and direct owner banner/web handoff (4 Reels, 2,628 views).", bullet_style))
+    story.append(Paragraph("• &nbsp; Co-managed Publication & Documentation (2-person PDD team for 20 KKN members) across a 32-day cycle (@kkndesaserang2026.archive)—producing 33 feed posts, 33 Reels (27,598 views, 575 likes, 7 Reels > 1k views), and 35 Story Highlights.", bullet_style))
+    story.append(Paragraph("• &nbsp; Delivered digital security literacy outreach (3 Reels, 1,556 views) and cross-account school campaigns with SDN Malangbong & Disdik Sumedang.", bullet_style))
     story.append(Spacer(1, 4))
 
     # 4. PROJECTS AND COMMUNITY
